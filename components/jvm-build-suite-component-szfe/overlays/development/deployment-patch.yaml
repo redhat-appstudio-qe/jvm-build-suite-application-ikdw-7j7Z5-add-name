@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-szfe
+  namespace: jvm-build-bmau-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:e90da3fb91805a71fae06f98463477c8a360711a7f65645b7981e7fd7f3432e2
+        name: container-image
+        resources: {}
+status: {}
