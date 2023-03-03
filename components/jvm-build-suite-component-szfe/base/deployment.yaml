@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-szfe
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:f342ed735e4c4e5aac374124c0fb1e01
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:e90da3fb91805a71fae06f98463477c8a360711a7f65645b7981e7fd7f3432e2
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

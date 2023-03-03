@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-szfe
     app.kubernetes.io/part-of: jvm-build-suite-application-ikdw
-  name: jvm-build-suite-component8v8f
+  name: jvm-build-suite-componentgi0j
   namespace: jvm-build-bmau-tenant
 spec:
   port:
